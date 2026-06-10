@@ -40,7 +40,6 @@ public class HitCountServlet extends HttpServlet{
 				}
 			}
 		}
-
 		if(found==false)
 		{
 			Cookie newCookie = new Cookie("count","1");
