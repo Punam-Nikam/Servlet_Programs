@@ -18,7 +18,7 @@ public class SessionLogin extends HttpServlet {
 
         String username = request.getParameter("username");
 
-        // Create session
+        // session creation
         HttpSession session = request.getSession();
         session.setAttribute("user", username);
 
